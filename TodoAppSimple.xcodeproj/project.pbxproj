@@ -14,6 +14,7 @@
 		17FA1B0027E3AF45005A13CB /* TodoAppSimple.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 17FA1AFE27E3AF45005A13CB /* TodoAppSimple.xcdatamodeld */; };
 		17FA1B0227E3AF48005A13CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17FA1B0127E3AF48005A13CB /* Assets.xcassets */; };
 		17FA1B0527E3AF48005A13CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17FA1B0327E3AF48005A13CB /* LaunchScreen.storyboard */; };
+		17FA1B0D27E3B4DE005A13CB /* DatabaseHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17FA1B0C27E3B4DE005A13CB /* DatabaseHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		17FA1B0127E3AF48005A13CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		17FA1B0427E3AF48005A13CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		17FA1B0627E3AF48005A13CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17FA1B0C27E3B4DE005A13CB /* DatabaseHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				17FA1B0327E3AF48005A13CB /* LaunchScreen.storyboard */,
 				17FA1B0627E3AF48005A13CB /* Info.plist */,
 				17FA1AFE27E3AF45005A13CB /* TodoAppSimple.xcdatamodeld */,
+				17FA1B0C27E3B4DE005A13CB /* DatabaseHelper.swift */,
 			);
 			path = TodoAppSimple;
 			sourceTree = "<group>";
@@ -142,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				17FA1AFA27E3AF45005A13CB /* ViewController.swift in Sources */,
+				17FA1B0D27E3B4DE005A13CB /* DatabaseHelper.swift in Sources */,
 				17FA1AF627E3AF45005A13CB /* AppDelegate.swift in Sources */,
 				17FA1AF827E3AF45005A13CB /* SceneDelegate.swift in Sources */,
 				17FA1B0027E3AF45005A13CB /* TodoAppSimple.xcdatamodeld in Sources */,
