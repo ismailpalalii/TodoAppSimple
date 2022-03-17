@@ -52,8 +52,14 @@
                     <navigationItem key="navigationItem" title="Todo App" id="Evd-FV-P2x">
                         <barButtonItem key="rightBarButtonItem" image="plus" catalog="system" id="gcc-Kl-32P">
                             <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                            <connections>
+                                <action selector="btnAdd:" destination="BYZ-38-t0r" id="Wge-wk-LQh"/>
+                            </connections>
                         </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="tableView" destination="P3d-x8-LsW" id="EGt-G4-9hb"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
